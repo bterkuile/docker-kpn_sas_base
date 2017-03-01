@@ -1,5 +1,6 @@
 FROM centos:6.6
 MAINTAINER docker@companytools.nl
+# push for update 1
 
 RUN yum -y groupinstall "Development Tools"
 RUN yum -y install libxml2-devel libxslt-devel libyaml-devel openssl-devel readline-devel gdbm-devel libffi-devel
